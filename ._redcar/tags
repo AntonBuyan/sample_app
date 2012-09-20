@@ -1,16 +1,20 @@
-1347078945
+1348110703
 About page	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
+ApplicationHelper	C:/Sites/rails_project/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+Contact page	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
+GET 'help'	C:/Sites/rails_project/sample_app/spec/controllers/static_pages_controller_spec.rb	describe "GET 'help'" do
+GET 'home'	C:/Sites/rails_project/sample_app/spec/controllers/static_pages_controller_spec.rb	describe "GET 'home'" do
 Help page	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 Static pages	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	C:/Sites/rails_project/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	C:/Sites/rails_project/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
 about	C:/Sites/rails_project/sample_app/app/controllers/static_pages_controller.rb	  def about
+concats two strings with spaces	C:/Sites/rails_project/sample_app/spec/helpers/static_pages_helper_spec.rb	it "concats two strings with spaces" do
 help	C:/Sites/rails_project/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Sites/rails_project/sample_app/app/controllers/static_pages_controller.rb	  def home
-should have the h1 'About Us'	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'About Us'" do
-should have the h1 'Help'	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Help'" do
-should have the h1 'Sample App'	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	it "should have the h1 'Sample App'" do
-should have the title 'About Us'	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'About Us'" do
-should have the title 'Help'	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Help'" do
-should have the title 'Home'	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	it "should have the title 'Home'" do
+returns http success	C:/Sites/rails_project/sample_app/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
+returns http success	C:/Sites/rails_project/sample_app/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
+static_pages/help.html.erb	C:/Sites/rails_project/sample_app/spec/views/static_pages/help.html.erb_spec.rb	describe "static_pages/help.html.erb" do
+static_pages/home.html.erb	C:/Sites/rails_project/sample_app/spec/views/static_pages/home.html.erb_spec.rb	describe "static_pages/home.html.erb" do
+string concat	C:/Sites/rails_project/sample_app/spec/helpers/static_pages_helper_spec.rb	describe "string concat" do
