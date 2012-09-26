@@ -1,4 +1,4 @@
-1348257321
+1348631455
 About page	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	C:/Sites/rails_project/sample_app/db/migrate/20120921181931_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	C:/Sites/rails_project/sample_app/db/migrate/20120921182936_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -28,17 +28,23 @@ change	C:/Sites/rails_project/sample_app/db/migrate/20120921181931_add_index_to_
 change	C:/Sites/rails_project/sample_app/db/migrate/20120921182936_add_password_digest_to_users.rb	  def change
 concats two strings with spaces	C:/Sites/rails_project/sample_app/spec/helpers/static_pages_helper_spec.rb	it "concats two strings with spaces" do
 contact	C:/Sites/rails_project/sample_app/app/controllers/static_pages_controller.rb	   def contact
+create	C:/Sites/rails_project/sample_app/app/controllers/users_controller.rb	  def create
 full_title	C:/Sites/rails_project/sample_app/spec/support/utilities.rb	def full_title(page_title)
 full_title	C:/Sites/rails_project/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
+gravatar_for	C:/Sites/rails_project/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user)
 help	C:/Sites/rails_project/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Sites/rails_project/sample_app/app/controllers/static_pages_controller.rb	  def home
 new	C:/Sites/rails_project/sample_app/app/controllers/users_controller.rb	  def new
+profile page	C:/Sites/rails_project/sample_app/spec/requests/user_pages_spec.rb	describe "profile page" do
 return value of authenticate method	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
 returns http success	C:/Sites/rails_project/sample_app/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/Sites/rails_project/sample_app/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
 should be invalid	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	it "should be invalid" do
 should be valid	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	it "should be valid" do
-signup page	C:/Sites/rails_project/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
+should create a user	C:/Sites/rails_project/sample_app/spec/requests/user_pages_spec.rb	it "should create a user" do
+should not create a user	C:/Sites/rails_project/sample_app/spec/requests/user_pages_spec.rb	it "should not create a user" do
+show	C:/Sites/rails_project/sample_app/app/controllers/users_controller.rb	  def show
+signup	C:/Sites/rails_project/sample_app/spec/requests/user_pages_spec.rb	describe "signup" do
 static_pages/help.html.erb	C:/Sites/rails_project/sample_app/spec/views/static_pages/help.html.erb_spec.rb	describe "static_pages/help.html.erb" do
 static_pages/home.html.erb	C:/Sites/rails_project/sample_app/spec/views/static_pages/home.html.erb_spec.rb	describe "static_pages/home.html.erb" do
 string concat	C:/Sites/rails_project/sample_app/spec/helpers/static_pages_helper_spec.rb	describe "string concat" do
@@ -53,5 +59,7 @@ when password confirmation is nil	C:/Sites/rails_project/sample_app/spec/models/
 when password doesn't match confirmation	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	describe "when password doesn't match confirmation" do
 when password is not present	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	describe "when password is not present" do
 with a password that's too short	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	describe "with a password that's too short" do
+with invalid information	C:/Sites/rails_project/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
 with invalid password	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	describe "with invalid password" do
+with valid information	C:/Sites/rails_project/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
 with valid password	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	describe "with valid password" do
