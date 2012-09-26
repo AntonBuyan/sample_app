@@ -1,4 +1,4 @@
-1348631455
+1348631693
 About page	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	C:/Sites/rails_project/sample_app/db/migrate/20120921181931_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	C:/Sites/rails_project/sample_app/db/migrate/20120921182936_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
