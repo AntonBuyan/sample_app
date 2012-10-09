@@ -1,10 +1,12 @@
-1348938806
+1349750189
 About page	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddIndexToUsersEmail	C:/Sites/rails_project/sample_app/db/migrate/20120921181931_add_index_to_users_email.rb	class AddIndexToUsersEmail 
 AddPasswordDigestToUsers	C:/Sites/rails_project/sample_app/db/migrate/20120921182936_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
+AddRememberTokenToUsers	C:/Sites/rails_project/sample_app/db/migrate/20120929215052_add_remember_token_to_users.rb	class AddRememberTokenToUsers 
 Application	C:/Sites/rails_project/sample_app/config/application.rb	  class Application 
 ApplicationController	C:/Sites/rails_project/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/rails_project/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+Authentication	C:/Sites/rails_project/sample_app/spec/requests/authentication_pages_spec.rb	describe "Authentication" do
 BrowsingTest	C:/Sites/rails_project/sample_app/test/performance/browsing_test.rb	class BrowsingTest 
 Contact page	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
 CreateUsers	C:/Sites/rails_project/sample_app/db/migrate/20120920033015_create_users.rb	class CreateUsers 
@@ -13,6 +15,8 @@ GET 'home'	C:/Sites/rails_project/sample_app/spec/controllers/static_pages_contr
 Help page	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
 SampleApp	C:/Sites/rails_project/sample_app/config/application.rb	module SampleApp
+SessionsController	C:/Sites/rails_project/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
+SessionsHelper	C:/Sites/rails_project/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
 Static pages	C:/Sites/rails_project/sample_app/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	C:/Sites/rails_project/sample_app/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	C:/Sites/rails_project/sample_app/app/helpers/static_pages_helper.rb	module StaticPagesHelper
@@ -26,16 +30,24 @@ about	C:/Sites/rails_project/sample_app/app/controllers/static_pages_controller.
 change	C:/Sites/rails_project/sample_app/db/migrate/20120920033015_create_users.rb	  def change
 change	C:/Sites/rails_project/sample_app/db/migrate/20120921181931_add_index_to_users_email.rb	  def change
 change	C:/Sites/rails_project/sample_app/db/migrate/20120921182936_add_password_digest_to_users.rb	  def change
+change	C:/Sites/rails_project/sample_app/db/migrate/20120929215052_add_remember_token_to_users.rb	  def change
 concats two strings with spaces	C:/Sites/rails_project/sample_app/spec/helpers/static_pages_helper_spec.rb	it "concats two strings with spaces" do
 contact	C:/Sites/rails_project/sample_app/app/controllers/static_pages_controller.rb	   def contact
 create	C:/Sites/rails_project/sample_app/app/controllers/users_controller.rb	  def create
+create	C:/Sites/rails_project/sample_app/app/controllers/sessions_controller.rb	  def create
+create_remember_token	C:/Sites/rails_project/sample_app/app/models/user.rb	    def create_remember_token
+current_user	C:/Sites/rails_project/sample_app/app/helpers/sessions_helper.rb	  def current_user
+current_user=	C:/Sites/rails_project/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
+destroy	C:/Sites/rails_project/sample_app/app/controllers/sessions_controller.rb	  def destroy
 full_title	C:/Sites/rails_project/sample_app/spec/support/utilities.rb	def full_title(page_title)
 full_title	C:/Sites/rails_project/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 gravatar_for	C:/Sites/rails_project/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user)
 help	C:/Sites/rails_project/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Sites/rails_project/sample_app/app/controllers/static_pages_controller.rb	  def home
 new	C:/Sites/rails_project/sample_app/app/controllers/users_controller.rb	  def new
+new	C:/Sites/rails_project/sample_app/app/controllers/sessions_controller.rb	  def new
 profile page	C:/Sites/rails_project/sample_app/spec/requests/user_pages_spec.rb	describe "profile page" do
+remember token	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	describe "remember token" do
 return value of authenticate method	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
 returns http success	C:/Sites/rails_project/sample_app/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
 returns http success	C:/Sites/rails_project/sample_app/spec/controllers/static_pages_controller_spec.rb	it "returns http success" do
@@ -44,6 +56,9 @@ should be valid	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	it "s
 should create a user	C:/Sites/rails_project/sample_app/spec/requests/user_pages_spec.rb	it "should create a user" do
 should not create a user	C:/Sites/rails_project/sample_app/spec/requests/user_pages_spec.rb	it "should not create a user" do
 show	C:/Sites/rails_project/sample_app/app/controllers/users_controller.rb	  def show
+sign_in	C:/Sites/rails_project/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
+signed_in?	C:/Sites/rails_project/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
+signin	C:/Sites/rails_project/sample_app/spec/requests/authentication_pages_spec.rb	describe "signin" do
 signup	C:/Sites/rails_project/sample_app/spec/requests/user_pages_spec.rb	describe "signup" do
 static_pages/help.html.erb	C:/Sites/rails_project/sample_app/spec/views/static_pages/help.html.erb_spec.rb	describe "static_pages/help.html.erb" do
 static_pages/home.html.erb	C:/Sites/rails_project/sample_app/spec/views/static_pages/home.html.erb_spec.rb	describe "static_pages/home.html.erb" do
@@ -60,6 +75,8 @@ when password doesn't match confirmation	C:/Sites/rails_project/sample_app/spec/
 when password is not present	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	describe "when password is not present" do
 with a password that's too short	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	describe "with a password that's too short" do
 with invalid information	C:/Sites/rails_project/sample_app/spec/requests/user_pages_spec.rb	describe "with invalid information" do
+with invalid information	C:/Sites/rails_project/sample_app/spec/requests/authentication_pages_spec.rb	describe "with invalid information" do
 with invalid password	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	describe "with invalid password" do
 with valid information	C:/Sites/rails_project/sample_app/spec/requests/user_pages_spec.rb	describe "with valid information" do
+with valid information	C:/Sites/rails_project/sample_app/spec/requests/authentication_pages_spec.rb	describe "with valid information" do
 with valid password	C:/Sites/rails_project/sample_app/spec/models/user_spec.rb	describe "with valid password" do
